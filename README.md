@@ -2,9 +2,6 @@ Unified Workspace Briefings (UWB)
 
 One-liner: Ingest Slack + Google Drive, index with BM25 + vectors, enforce ACLs at query time, and generate grounded weekly briefings with citations — with real SLOs, retries, circuit breakers, tracing, and load-test receipts.
 
-<p align="left"> <em>Update these after you run the included benchmarks.</em><br> <img alt="p95" src="https://img.shields.io/badge/p95_/search-≤_300ms-blue"> <img alt="freshness" src="https://img.shields.io/badge/Median_freshness-≤_60s-green"> <img alt="ingestion" src="https://img.shields.io/badge/Ingestion-8k%2Fh-lightgrey"> <img alt="tests" src="https://img.shields.io/badge/CI-tests%20%26%20lint-brightgreen"> </p>
-Why this project matters (2025 backend hiring)
-
 More than “just RAG”: async ingestion + idempotency, ACL-aware search, query planner (BM25/vector/hybrid), abstain & per-citation confidence.
 
 Production-ish: retries, circuit breaker, DLQ, rate limiting, OpenTelemetry traces, Prometheus/Grafana, Redis caching with principal-scoped cache keys.
